@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Personal Portfolio Website" />
+        <meta name="author" content="Kyle Jeong" />
+        <title>Kyle Jeong's Portfolio</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        
+    </head>
+    <body>
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="z-index: 999;">
+            <div class="container px-5">
+                <a class="navbar-brand" href="index.html">Kyle Jeong</a>  
+             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about_me">About Me</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#coding-challenges">Coding Challenges</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact_me">Contact Me</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="img-container">
+                <img class="img-fluid" src="img/2159510.webp" alt= "background tree"
+                width=100%
+                height=100%;
+                margin=0
+                padding=0/>
+                <div class="center-text">
+                    <h1 style="font-size: 9vw; font-family: verdana; text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;">Kyle Jeong</h1>
+                    <p style="font-family: verdana; font-size: 2vw; color: white;"><mark>| Student | Software Engineer | Entrepreneur |</mark></p>
+                </div>   
+            </div>
+        
+        <div class="container px-4 px-lg-5" id="about_me">
+            <!-- Heading Row-->
+            <div class="row gx-4 gx-lg-5 align-items-center my-5">
+                <div class="col-lg-7"><img class="img-fluid rounded mb-4 mb-lg-0" src="img/IMG_1387.png" alt="Picture of Kyle in the Trunk" 
+                    width=400px
+                    height=auto/></div>
+                <div class="col-lg-5">
+                    <h1 class="font-weight-light" style="text-decoration: underline;">About Me</h1>
+                    <p>Hello, my name is Kyle. I currently live in the Bay Area. I am a student studying to become a software engineer. I am interested in full stack development. Contact me for resume or work.</p>
+                    <a class="btn btn-primary" href="mailto:Kylejeong21@gmail.com">Email Me</a>
+                </div>
+            </div>
+
+        <!--Skills Section-->
+        <div class="card text-white bg-secondary my-5 py-4 text-center">
+            <div class="card-body">
+                <h1 class="text-white m-0" style="text-align: left; padding-bottom: 15px; font-family: verdana;">My Skills </h1>
+                <p class="text-white m-0" style="text-align: left;"><strong>Languages:</strong> Java, C, Javascript, HTML, CSS, Python, SQL</p>
+                <p class="text-white m-0" style="text-align: left;"><strong>Frameworks & Libraries:</strong> Bootstrap, Flask </p>
+                <p class="text-white m-0" style="text-align: left;"><strong>Tools:</strong> Terminal, Git, Github, Visual Studio Code</p>
+            </div>
+        </div>
+   
+    <!--Projects Carousel-->
+    <h1 class="projects-name" id="projects"><strong>Projects</strong></h1>
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <!-- Carousel indicators -->
+        <ol class="carousel-indicators">
+            <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+            <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+        </ol>
+        
+        <!-- Wrapper for carousel items -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/MyDoro.png" class="d-block w-100" alt="Slide 1">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5><span style="background-color: black";>MyDoro Timer</span></h5>
+                    <p><span style="background-color: black";>Customizable Pomodoro Timer Chrome Extension</span></p>
+                    <a class="btn btn-primary" href="#" target="blank" style="padding: 20px">Demo</a>
+                    <a class="btn btn-primary" href="https://github.com/Kylejeong2/MyDoro-Timer" target="blank" style="padding: 20px">Code</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/slide2.png" class="d-block w-100" alt="Slide 2">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some placeholder content for the second slide.</p>
+                    <a class="btn btn-primary" href="#" target="blank" style="padding: 20px">Demo</a>
+                    <a class="btn btn-primary" href="#" target="blank" style="padding: 20px">Code</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/slide3.png" class="d-block w-100" alt="Slide 3">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some placeholder content for the third slide.</p>
+                    <a class="btn btn-primary" href="#" target="blank" style="padding: 20px">Demo</a>
+                    <a class="btn btn-primary" href="#" target="blank" style="padding: 20px">Code</a>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Carousel controls -->
+        <a class="carousel-control-prev" href="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+
+        <!--Coding Challenges Carousel-->
+        <h1 class="projects-name" id="coding-challenges"><strong>Coding Challenges</strong></h1>
+        <div id="myCarousel1" class="carousel slide" data-bs-ride="carousel">
+            <!-- Carousel indicators -->
+            <ol class="carousel-indicators">
+                <li data-bs-target="#myCarousel1" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#myCarousel1" data-bs-slide-to="1"></li>
+                <li data-bs-target="#myCarousel1" data-bs-slide-to="2"></li>
+            </ol>
+        
+            <!-- Wrapper for carousel items -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/snake.png" class="d-block w-100" alt="Slide 1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Snake</h5>
+                        <p>Recreated the google snake game, utilized Java</p>
+                        <a class="btn btn-primary" href="https://github.com/Kylejeong2/Snake-Game" target="blank" style="padding: 20px">Code</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/blackjack.png" class="d-block w-100" alt="Slide 2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>BlackJack</h5>
+                        <p>BlackJack in the terminal against a computer, utilized Python</p>
+                        <a class="btn btn-primary" href="https://github.com/Kylejeong2/BlackJack-Terminal" target="blank" style="padding: 20px">Code</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/slide3.png" class="d-block w-100" alt="Slide 3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some placeholder content for the third slide.</p>
+                        <a class="btn btn-primary" href="#" target="blank" style="padding: 20px">Code</a>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Carousel controls -->
+            <a class="carousel-control-prev" href="#myCarousel1" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel1" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+   
+            <!-- Content Row-->
+            <div class="row gx-4 gx-lg-5" id="contact_me">
+                <h1 style="text-align: center; padding: 25px; font-family: verdana; font-size: 3.5vw;"><strong>Contact Me</strong></h1>
+                <div class="col-md-4 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h2 class="card-title">Github</h2>
+                        </div>
+                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="https://github.com/Kylejeong2" target="_blank">
+                            <img src="img/download-1.png" alt="github logo"
+                            width=75px
+                            height=auto/></a></div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h2 class="card-title">Linkedin</h2>
+                        </div>
+                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="https://www.linkedin.com/in/kyle-jeong-971445205/" target="_blank">
+                            <img src="img/768px-LinkedIn_logo_initials.png" alt="linkedin logo"
+                            width=75px
+                            height=auto/></a></div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h2 class="card-title">Email</h2>
+                        </div>
+                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="mailto:Kylejeong21@gmail.com">
+                            <img src="img/gmail-google-logo-rebrand-workspace-design_dezeen_2364_sq-300x300.jpg" alt="gmail logo" 
+                            width=75px
+                            height=auto/></a></div>
+                    </div>
+                </div>
+            </div>
+            <button class="scrollToTopBtn">&#8679;</button>
+        </div>
+
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container px-4 px-lg-5"><p class="m-0 text-center text-white">Copyright &copy; KyleJeong 2021 · edited by Kyle Jeong</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="scripts.js"></script>
+    </body>
+</html>
