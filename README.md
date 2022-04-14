@@ -1,9 +1,6 @@
 # Portfolio-Website
-Portfolio Project
+****Portfolio Project****
+-Utilized HTML CSS & JS to create a personal website to display coding projects.
+-Created with Bootstrap
 
-Resume Project
-
-Utilized HTML CSS & JS to create a personal website to display coding projects.
-Created with Bootstrap
-
-Last Updated 4/2/22
+Last Updated 4/14/22
